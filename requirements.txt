@@ -1,0 +1,11 @@
+# Core (required) — enough to run the entire demo and test suite offline,
+# with zero API keys and zero internet access.
+numpy>=1.24
+scikit-learn>=1.3
+
+# Optional — production-grade backends. Uncomment / install as needed.
+# sentence-transformers>=2.2   # for SentenceTransformerEmbedder (real semantic embeddings)
+# openai>=1.30                 # for OpenAIEmbedder and OpenAILLMClient (real LLM + embeddings)
+
+# Optional — testing
+# pytest>=7.4
